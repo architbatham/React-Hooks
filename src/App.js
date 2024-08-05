@@ -1,12 +1,11 @@
+import React from 'react'
+import UseState from './Component/UseState'
 
-import './App.css';
-
-function App() {
+export default function App() {
   return (
-    <>
-    
-    </>
-  );
-}
+    <div>
+    <UseState/>
 
-export default App;
+    </div>
+  )
+}
